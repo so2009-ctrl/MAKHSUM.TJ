@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="tg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background: #0f172a;
+      color: white;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      background: #1e293b;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 15px;
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h2 {
+      font-size: 40px;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      background: #38bdf8;
+      color: black;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 15px;
+      width: 250px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #020617;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>МАН</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Салом! Ман Frontend Developer 👋</h2>
+  <p>Ман вебсайтҳои зебо ва зуд месозам 🚀</p>
+  <button class="btn" onclick="alert('Ташаккур 😄')">Бо ман тамос гир</button>
+</section>
+
+<section id="about" class="section">
+  <h2>Дар бораи ман</h2>
+  <p>Ман ҳоло HTML, CSS ва JavaScript меомӯзам ва мехоҳам барномасози касбӣ шавам.</p>
+</section>
+
+<section id="projects" class="section">
+  <h2>Проектҳои ман</h2>
+
+  <div class="cards">
+    <div class="card">
+      <h3>Сайти 1</h3>
+      <p>Сайти оддӣ бо HTML</p>
+    </div>
+
+    <div class="card">
+      <h3>Сайти 2</h3>
+      <p>Дизайн бо CSS</p>
+    </div>
+
+    <div class="card">
+      <h3>Сайти 3</h3>
+      <p>JavaScript истифода шудааст</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <h2>Тамос</h2>
+  <p>Email: example@gmail.com</p>
+</section>
+
+<footer>
+  <p>© 2026 Ҳама ҳуқуқҳо ҳифз шудаанд</p>
+</footer>
+
+</body>
+</html>
